@@ -1,0 +1,380 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #1C2833;
+    color: white;
+    width: 1920px;
+    height: 106px;
+}
+
+.logotipo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 68px;
+}
+
+body{
+    padding: 0;/*Espacio interior entre el contenido*/
+    margin: -1cm 0 0 0;/*MARGEN INICIALPARA EL BACKGROUND*/
+}
+
+.titulo{
+    margin: 0 0 0 100px; /*Margen izquierdo de 106 pixeles para el título*/
+    font-family: KoHo;/*Aplico una fuente*/
+    font-size: 40px;
+    font-weight: normal;/*Retiro la negrilla en el texto*/
+    padding-top: 40px;
+}
+
+.menu{
+    list-style: none;/*Elimino los puntos de la lista*/
+    text-align: right;/*Alíneo todo el contenido de títulos a la derecha del documento*/
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu li{
+    display: inline;/*Alíneo en fila el contenido de la lista*/
+    margin-left: 35px;
+}
+
+.menu a{
+    color: #00FF00;
+    justify-content: space-between;/*Alinea el contenido a la derecha*/
+    text-decoration: none;/*Para quitar el subrayado*/
+
+}
+
+.menu{
+    margin-top: -35px;   
+    margin-right: 1cm;
+    font-size: 25px;
+    font-family: Heebo;
+}
+
+.inicio{
+    background-image:url(Imágenes/fondo.jpg);/*Selecciono una imagen como fondo*/
+    width: 1920px;
+    height: 377px;
+}
+
+.presentacion{
+    font-size: 70px;
+    color: #00FF00;
+    font-family: Kavoon;
+    margin: 0 0 0 106px;
+}
+
+.acerca{
+    font-family: Audiowide;
+    color:white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.fotoPerfil{
+    border-radius: 50%;/*Le doy una forma circular a la imagen*/
+    margin: -280px 0 0 1500px;
+    height: 317px;
+    width: 336px;
+}
+
+.proyectos{
+    color:#FF1313;
+    font-family: Heebo;
+    font-size: 30px;
+    margin-left: 50px;
+    background-color: black;
+    border-color: #00FF00;
+    border-radius: 10px;/* Bordes redondeados */
+}
+
+.cursos{
+    color:#FF1313;
+    font-family: Heebo;
+    font-size: 30px;
+    margin-left: 50px;
+    background-color: white;
+    border-color: #00FF00;
+    border-radius: 10px;/* Bordes redondeados */
+}
+
+.mitad{
+    text-align: center;
+}
+
+.proyecto1{
+    color: #00FF00;
+    font-family: KoHo;
+    font-size: 90px;
+}
+
+.contenido{
+    font-family: Audiowide;
+    font-size: 32px;
+}
+
+.t1{
+    color: #00FF00;
+}
+
+.cuadros{
+    display: flex;
+    margin: 20px;
+    font-family: Audiowide;
+    width: 415px;   /* Ancho del cuadrado */
+    height: 470px;  /* Altura del cuadrado */
+    gap: 300px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.cuadro1{    
+    background-color: #2e4053 ; 
+    border: 2px solid #00FF00;
+    border-radius: 20px;
+    color: white;
+}
+
+.cuadro2{
+    border: 2px solid #00FF00;
+    border-radius: 20px;  
+}
+
+.foto{
+    width: 335px;
+    height: 154px;
+    margin-top: 25px;
+}
+
+.b1{
+    margin-top: 15px;
+    border: 2px solid #00FF00;
+    border-radius: 5px;
+    color: #FF1313;
+    margin-right: 215px;
+}
+
+.cuadro2 .b1{
+    background-color: #000;
+    color: #FF1313;
+    border: 2px solid #000;
+}
+
+.b2{
+    border: 2px solid #00FF00;
+    border-radius: 5px; 
+}
+
+.cuadro2 .b2{
+    background-color: #000;
+    color: white;
+}
+
+.contenido2{
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    background-image:url(Imágenes/fondo.jpg);
+    color: white;
+    width: 1703;
+    height: 300px;
+}
+
+.comunicacion{
+    color: #00FF00;
+    font-family: KoHo;
+    font-size: 48px;
+    margin-left: 150px;
+}
+
+
+.logos{
+    display: flex;
+    gap: 20px;
+    width: 89px;
+    height: 90px;
+}
+
+.gmail{
+    margin-top: 10px;
+    width: 89px;
+    height: 70px;
+}
+
+.ws{
+    margin-top: -55px;
+    width: 250px;
+    height: 200px;
+    margin-left: -50px;
+}
+
+.link{
+    width: 89px;
+    height: 90px;
+}
+
+.final{
+    font-family: Audiowide;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.barra{
+    display: flex;
+    justify-content: end;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    height: 62px;
+    width: 732px;
+}
+
+.busqueda{
+    width: calc(100%-100px); /*Para ajustar el ancho de la barra de texto*/
+    height: 100%;
+    width: 650px;
+    padding: 0 10px;
+    font-size: 16px;
+    background: url(Imágenes/fondo-busqueda.jpg) no-repeat left;
+    background-size: 62px;
+    background-color: white;
+}
+
+
+.boton-busqueda{
+    width: 90px;
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.despedida{
+    margin-top: 90px;
+    margin-right: 25px;
+    font-family: Audiowide;
+    font-size: 24px;
+    color:white;
+    text-align: end;
+}
+
+
+/*Media Queries*/
+
+/* Estilos para pantallas grandes */
+body {
+    width: 1920px;
+    height: 800px;
+    margin: 0;
+}
+
+/* Media Query para tablets y pantallas medianas */
+@media (max-width: 991px) {
+    body {
+        width: 100%; /* Hace que el ancho de la página se ajuste */
+        height: auto; /* Deja que la altura se adapte al contenido */
+        overflow-x: hidden; /* Elimina el scroll horizontal */
+    }
+
+    header, .inicio, .contenido2 {
+        width: 100%; /* Ajusta el ancho para pantallas más pequeñas */
+    }
+
+    .titulo {
+        font-size: 30px; /* Reduce el tamaño de la fuente */
+        margin-left: 20px; /* Reduce el margen */
+    }
+
+    .menu {
+        font-size: 20px; /* Ajusta el tamaño del menú */
+        margin-right: 20px; /* Reduce el margen derecho */
+    }
+
+    .fotoPerfil {
+        width: 200px; /* Ajusta el tamaño de la imagen */
+        height: auto;
+        margin: 20px auto 0; /* Centra la imagen */
+    }
+
+    .presentacion {
+        font-size: 50px; /* Reduce el tamaño del título */
+        margin-left: 20px;
+    }
+
+    .cuadros {
+        flex-direction: column; /* Cambia la disposición de los cuadros a columna */
+        gap: 20px; /* Reduce el espacio entre los cuadros */
+        margin-left: 0; /* Elimina el margen izquierdo */
+        align-items: center;
+    }
+
+    .contenido2, .comunicacion, .final, .despedida {
+        text-align: center;
+        margin-left: 0; /* Ajuste de márgenes */
+    }
+}
+
+/* Media Query para móviles */
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 24px; /* Ajusta el tamaño de la fuente */
+    }
+
+    .menu {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .presentacion {
+        font-size: 36px;
+    }
+
+    .fotoPerfil {
+        width: 150px;
+        margin: 10px auto 0;
+    }
+
+    .inicio {
+        height: auto;
+    }
+
+    .cuadros {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .cuadro1, .cuadro2 {
+        width: 100%; /* Ocupan el 100% del ancho disponible */
+    }
+
+    .contenido2 {
+        padding: 20px;
+    }
+
+    .busqueda {
+        width: calc(100% - 70px); /* Ajusta el ancho de la barra de búsqueda */
+    }
+
+    .boton-busqueda {
+        width: 70px;
+    }
+
+    .despedida {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital</title>
+
+    <link rel="stylesheet" href="style.css"> <!--Vinculo html con CSS-->
+
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;700&display=swap" rel="stylesheet">
+    <!--Incluyo la fuente que deseo desde google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Kavoon&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Heebo:wght@100..900&family=Kavoon&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <section class="hero">
+            <!--Agrupo la parte de arriba de mi página web, con section determino a qué corresponde el contenido-->
+            <h1 class="titulo">PORTAFOLIO</h1>
+            <div class="headerPrincipal">
+                <ul class="menu">
+                    <li> <a href="#presentacion">Inicio</a></li>
+                    <li> <a href="#proyecto1">Proyectos</a></li>
+                    <li> <a href="#comunicacion">Contacto</a></li>
+                </ul>
+                <img src="Imágenes/logo.jpg" class="logotipo">
+            </div>
+        </section>
+    </header>
+
+    <section class="inicio">
+        <div id="presentacion"></div> <!-- Enlazo con la parte de arriba para que me dirija a esta seccion-->
+        <h1 class="presentacion">¿Quién soy?</h1>
+        <div class="contenido">
+            <p class="acerca">Soy un joven de 20 años, apasionado a la tecnología y que en mis tiempos libres me gusta
+                <br>hacer deporte,
+                actualmente estudiante universitario en la Escuela Politécnica
+                Nacional,<br> donde aprendí a manejar la<!--Con <br> aplico salto de línea-->
+                presión de manera efectiva, además de contar con habilidades<br> de
+                comunicación lo cual me ha preparado para contribuir de buena manera en<br>
+                equipos de trabajo, aportando tanto en el servicio al cliente como en tareas
+                operativas.
+            </p>
+            <a href="#proyecto1">
+                <button class="proyectos">Proyectos</button>
+            </a>
+            <a href="#cursos">
+                <button class="cursos">Cursos</button>
+            </a>
+        </div>
+
+        <img class="fotoPerfil" src="Imágenes/andres.jpg"
+            alt=""><!--Importo la imagen que está en la carpeta imágenes-->
+
+    </section>
+
+    <section class="mitad">
+        <div id="proyecto1"></div> <!-- Enlazo con la parte de arriba para que me dirija a esta seccion-->
+        <h1 class="proyecto1">Proyectos</h1>
+        <p class="contenido">Mis proyectos de programación han sido tanto individuales como colaborativos.Los <br>cuales
+            me
+            han permitido mejorar mis habilidades dentro de este mundo.
+        </p>
+
+        <div class="cuadros">
+            <div class="cuadro1">
+                <img src="Imágenes/bomberman.jpeg" alt="" class="foto">
+                <a href="https://github.com/Ivanp2003/Bomberman_Proyecto" target="_blank"> <!-- Botón dentro de un enlace con target="_blank" para abrir el enlace en una nueva pestaña -->
+
+                    <button class="b1">Ver mas</button>
+                </a>
+                <h2 class="t1">BOMBERMAN POO</h2>
+                <p>Juego de bomberman bajo del paradigma de programación orientada a objetos en java.
+                </p>
+                <button class="b2">Herramientas utilizadas</button>
+            </div>
+
+            <div class="cuadro2">
+                <div id="cursos"></div> <!-- Enlazo con la parte de arriba para que me dirija a esta seccion-->
+                <img src="Imágenes/idiomas.jpeg" alt="" class="foto">
+                <a href="https://aps.cec-epn.edu.ec/diplomas/2023/LINGUISTICA/2/diploma_237993_52115-signed.pdf" target="_blank"><!-- Botón dentro de un enlace con target="_blank" para abrir el enlace en una nueva pestaña -->
+                    <button class="b1">Ver mas</button>
+                </a>
+                <h2 class="t1">INGLÉS</h2>
+                <p>Nivel actual de inglès en el centro de educación continua.</p>
+                <button class="b2">Herramientas utilizadas</button>
+            </div>
+
+            <div class="cuadro1">
+                <img src="Imágenes/paginaweb.jpeg" alt="" class="foto">
+                <a href="https://github.com/alexbarba2753/Tarea-2.1-Electrolineras" target="_blank"> <!-- Botón dentro de un enlace con target="_blank" para abrir el enlace en una nueva pestaña -->
+                    <button class="b1">Ver mas</button>
+                </a>
+                <h2 class="t1">PÁGINA ELECTROLINERA</h2>
+                <p>Pàgina web diseñada con html y css.</p>
+                <button class="b2">Herramientas utilizadas</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+
+        <div class="contenido2"> 
+            <h1 class="comunicacion">Contacto</h1>
+            <div id="comunicacion"></div> <!-- Enlazo con la parte de arriba para que me dirija a esta seccion-->
+
+            <p class="final">¿Tienes alguna consulta o proyecto en mente? Estoy aquí<br> para ayudarte. Envíame un mensaje y
+                me pondré en contacto<br> contigo lo antes posible.
+            </p>
+
+            <div class="logos">
+                <a href="https://www.linkedin.com/in/andres-panchi-103990311/" target="_blank">
+                    <img src="Imágenes/linkedin.png" class="link">
+                </a>
+
+                <a href="mailto:andrespanchichavez@gmail.com" target="_blank">
+                    <img src="Imágenes/gmail.webp" class="gmail">
+                </a>
+               
+                <a href="https://wa.me/593985510920" target="_blank">
+                    <img src="Imágenes/whatsapp.png" class="ws">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="barra">
+            <form action="action">
+                <input type="text" class="busqueda">
+                <input type="button" value="Enviar" class="boton-busqueda">
+            </form>
+        </div>
+        <div class="despedida">
+            <p class="despedida">Espero que hayas disfrutado tu visita en mi portafolio web.</p>
+        </div>
+
+    </section>
+
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
